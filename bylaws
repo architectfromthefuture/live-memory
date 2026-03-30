@@ -1,0 +1,75 @@
+System Constitution
+
+A short architecture brief containing:
+
+core principle
+memory object types
+agent roles
+event triggers
+trust/evidence rules
+what the UI is allowed to do
+what the UI is not responsible for
+
+----------------------------------------------
+
+
+1. Memory schema
+
+What kinds of memory objects exist?
+
+2. Agent responsibilities
+
+Which agents exist, and what are they responsible for?
+
+3. Event model
+
+What system events cause updates?
+
+4. UI observability
+
+How does the user see what the system is doing and why?
+
+5. Evidence model
+
+How do all agent claims link back to sources?
+
+----------------------------------------------------
+Product definition
+
+A memory-first agent system where continuous background processes structure, interpret, and maintain the user’s knowledge environment, while the UI acts as a query and observability layer rather than a task dispatcher.
+
+Less academic version:
+
+Plain version
+
+The system is already thinking over the workspace. The user opens the interface to inspect, question, and steer it.
+
+-----------------------------------------------------------------------------------------
+
+Concrete v1 homepage for your actual concept
+## Workspace State-
+
+memory health
+last update time
+active sources
+current top themes
+Agent Activity
+ingest agent processed 24 files
+structure agent updated 8 entities
+watcher agent flagged 2 contradictions
+operator agent completed 1 extraction run
+Key Findings
+strongest emerging topic
+notable changes since last session
+unresolved gaps
+recommendations for review
+Ask the System
+input box
+recent questions
+suggested prompts based on current state
+Evidence / Artifacts
+latest source files
+latest outputs
+flagged evidence items
+
+That makes the UI an observation and steering layer, exactly as you described.
